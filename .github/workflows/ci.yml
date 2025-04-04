@@ -15,7 +15,7 @@ jobs:
     permissions:
       contents: read
     
-   steps: 
+steps:
      - name: Clone repo
        uses: actions/checkout@v3
 
