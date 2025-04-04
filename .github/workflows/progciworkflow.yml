@@ -1,0 +1,28 @@
+name: CI
+on:
+ push:
+  branches:
+  - main
+ pull_request:
+   branches:
+   - main
+
+jobs:
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+
+    steps:
+      - name: Clone repo
+        uses: actions/checkout@v3
+
+      - name: Install Cybersecurity_Awareness_Bot_PART1
+        uses: Cybersecurity_Awareness_Bot_PART1/setup-Cybersecurity_Awareness_Bot_PART1@v2
+        with:
+          Cybersecurity_Awareness_Bot_PART1-version: v2.x
+
+      - name: Run tests
+        run: "Cybersecurity_Awareness_Bot_PART1 test"
