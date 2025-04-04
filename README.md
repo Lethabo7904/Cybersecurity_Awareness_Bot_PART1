@@ -1,0 +1,20 @@
+Name: Lethabo Mokgethwa Maphoto
+Student Number: ST10443029
+NETFRAME: ConsoleAPP.Netframework
+TEMPLATE: 4.7.2
+
+>The application will firstly play the welcome audio saying "Welcome to the cybersecurity awareness chatbot. I'll help you stay safe online."
+
+> After the welcome audio, a cybersecurity logo will be displayed using ascii images.
+
+> A welcome message written "Welcome to the cybersecurity awareness ChatBot", which is in the center will be displayed.
+
+> The chatbot will prompt the user to enter their name to initiate a conversation.
+
+> I designed the code in a way that the user can only ask the chatbot questions related to cybersecurity, and if the user asks the chatbot outside the related questions the chatbot should reply with " I am sorry I do not have the answer to that question, please ask questions that are cybersecurity related :(!!!");".
+
+> The user can only ask questions like "What is phishing", "What is malware", and "How to create a strong password".
+
+> If the user has no further question they can type "Exit" and press enter to exit the chat.
+
+> After pressing enter the chatbot will respond with "Goodbye. Remember to stay safe online." 
