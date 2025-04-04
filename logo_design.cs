@@ -33,9 +33,7 @@ namespace Cybersecurity_Awareness_Bot_PART1
                     Color pixelColor = image.GetPixel(width, height);
                     int gray = (pixelColor.R + pixelColor.G + pixelColor.B) / 3;
                     char asciiChar =
-                        gray > 200 ? '@' : 
-                        gray > 150 ? '.' : 
-                        gray > 100 ? '.' :
+                        gray > 200 ? '@' :
                         gray > 50 ? ':' : '.';
                     Console.Write(asciiChar);
 
