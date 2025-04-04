@@ -91,7 +91,7 @@ namespace Cybersecurity_Awareness_Bot_PART1
                     Console.WriteLine("ChatBot: Here is some information about phishing:");
                     foreach (string info in phishingInfo)
                     {
-                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.ForegroundColor = ConsoleColor.White ;
                         Console.WriteLine($"- {info}");
                     }
                 }
